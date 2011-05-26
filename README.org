@@ -1,0 +1,15 @@
+* About trac-wiki-el
+
+Emacs mode for editing Trac wiki pages, tickets, blog posts, and more,
+with colour syntax highlighting for Trac wiki formatting markup.
+
+Originally developed by Shun-ichi GOTO <shunichi.goto@gmail.com>.
+
+* License
+
+GNU General Public License version 2
+
+* See also
+
+- [[http://trac.edgewall.org/]]
+- [[http://www.meadowy.org/~gotoh/trac-wiki/]]
