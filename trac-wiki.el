@@ -399,6 +399,9 @@ user may need or want to edit them.")
      (5 'shadow))
     ("^=.*" . font-lock-warning-face)	   ; invalid section heading
     ("`[^`\n]*`" . 'shadow)		   ; inline quote
+    ("\\*\\*[^\\*\n]*\\*\\*" . 'bold)      ; **bold**
+    ("\\/\\/[^\\/\n]*\\/\\/" . 'italic)    ; //italic//
+    ("{{{[^}]*}}}" . 'shadow)              ; {{{monospace}}} (incl. newlines)
     ("\\(''+\\)[^'\n]*\\(''+\\)"	   ; bold and italic
      (0 (let ((b (match-string 1))
 	      (e (match-string 2)))
